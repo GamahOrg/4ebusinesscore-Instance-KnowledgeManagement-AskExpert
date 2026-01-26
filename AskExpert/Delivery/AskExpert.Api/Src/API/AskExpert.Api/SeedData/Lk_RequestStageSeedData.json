@@ -1,0 +1,21 @@
+﻿[
+  {
+    "Id": 1,
+    "NameAr": "المعلقه",
+    "NameEn": "Pending",
+    "IsSeed": true
+  },
+
+  {
+    "Id": 2,
+    "NameAr": "تمت الموافقه عليها",
+    "NameEn": "Accept",
+    "IsSeed": true
+  },
+  {
+    "Id": 3,
+    "NameAr": "المرفوضه",
+    "NameEn": "Rejected",
+    "IsSeed": true
+  }
+]

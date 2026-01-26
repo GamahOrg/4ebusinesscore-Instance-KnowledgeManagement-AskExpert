@@ -1,0 +1,25 @@
+﻿
+using System.Text.RegularExpressions;
+
+namespace _4EPlatform.Domain.CustomValidationInjection
+{
+    public class PreventInjectionCSVAttribute : ValidationAttribute
+    {
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            if (value == null)
+            {
+                return ValidationResult.Success;
+            }
+
+            string input = value.ToString();
+            string pattern = "[@\\-\\+=]";
+            if (Regex.IsMatch(input, pattern))
+            {
+                return new ValidationResult("Input contains CSV tags.");
+            }
+
+            return ValidationResult.Success;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+﻿[
+  {
+    "Id": "5502be18-4539-40fb-b5d8-c9e3cb944adf",
+    "FirstName": "أحمد",
+    "SecondName": "علي",
+    "ThirdName": "محمود",
+    "FourthName": "سعيد",
+    "ImgUrl": "wwwroot/Default/User.png",
+    "Email": "ahmed@example.com",
+    "PhoneNumber": "+96658596742",
+    "BirthDate": "1985-01-01T00:00:00",
+    "Nationality": "مصري",
+    "Address": "القاهرة، مصر",
+    "InformationAboutExpert": "خبير في الذكاء الاصطناعي وخبرة أكثر من 10 سنوات.",
+    "IsExternalExpert": false,
+    "CreatedBy": "00000000-0000-0000-0000-000000000000",
+    "UserId": null,
+    "Experiences": [
+      {
+        "ExperienceName": "باحث ذكاء اصطناعي",
+        "ExperienceYears": 10,
+        "ExpertId": "5502be18-4539-40fb-b5d8-c9e3cb944adf",
+        "JobLocation": "جامعة القاهرة",
+        "CreatedBy": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "ExpertSpecializations": [
+      {
+        "ExpertId": "5502be18-4539-40fb-b5d8-c9e3cb944adf",
+        "CreatedBy": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
+  }
+]
